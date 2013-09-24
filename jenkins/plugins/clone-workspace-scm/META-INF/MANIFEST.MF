@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: abayer
+Build-Jdk: 1.6.0_31
+Extension-Name: clone-workspace-scm
+Specification-Title: Plugin to archive workspaces from one project and
+  reuse those as SCM sources for other projects.
+Implementation-Title: clone-workspace-scm
+Implementation-Version: 0.5
+Group-Id: org.jenkins-ci.plugins
+Short-Name: clone-workspace-scm
+Long-Name: Jenkins Clone Workspace SCM Plug-in
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Clone+Workspace+SCM+Pl
+ ugin
+Plugin-Version: 0.5
+Hudson-Version: 1.463
+Jenkins-Version: 1.463
+Plugin-Developers: Andrew Bayer:abayer:andrew.bayer@gmail.com
+

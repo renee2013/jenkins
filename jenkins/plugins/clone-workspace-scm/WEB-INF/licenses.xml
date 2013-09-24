@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='clone-workspace-scm' version='0.5'>
+  <l:dependency name='Jenkins Clone Workspace SCM Plug-in' groupId='org.jenkins-ci.plugins' artifactId='clone-workspace-scm' version='0.5' url='http://wiki.jenkins-ci.org/display/JENKINS/Clone+Workspace+SCM+Plugin'>
+    <l:description>Plugin to archive workspaces from one project and reuse those as SCM sources for other projects.</l:description>
+    <l:license name='MIT license' />
+  </l:dependency>
+</l:dependencies>

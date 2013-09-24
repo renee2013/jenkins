@@ -1,0 +1,17 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Users\twer.TW-DLA-120\.jenkins\workspace\deploy-to-uat
+Restoring workspace from build #1 of project deploy-to-test
+[EnvInject] - Executing scripts and injecting environment variables after the SCM step.
+[EnvInject] - Injecting as environment variables the properties file path 'C:/Users/twer.TW-DLA-120/.jenkins/workspace/deploy-to-uat/version.txt'
+[EnvInject] - Variables injected successfully.
+[deploy-to-uat] $ sh -xe D:\servers\tomcat\apache-tomcat-7.0.41\temp\hudson4906887064967238105.sh
+cygwin warning:
+  MS-DOS style path detected: D:\servers\tomcat\apache-tomcat-7.0.41\temp\hudson4906887064967238105.sh
+  Preferred POSIX equivalent is: /cygdrive/d/servers/tomcat/apache-tomcat-7.0.41/temp/hudson4906887064967238105.sh
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
++ echo fake deploy to uat
+fake deploy to uat
+Finished: SUCCESS

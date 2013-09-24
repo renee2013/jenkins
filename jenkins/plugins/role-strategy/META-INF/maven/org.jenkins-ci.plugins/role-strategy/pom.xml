@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <version>1.409</version>
+    </parent>
+    
+    <artifactId>role-strategy</artifactId>
+    <packaging>hpi</packaging>
+    <version>1.1.2</version>
+    <name>Role-based Authorization Strategy</name>
+    <url>http://wiki.jenkins-ci.org/display/JENKINS/Role+Strategy+Plugin</url>
+    
+    <developers>
+        <developer>
+            <id>tmaurel</id>
+            <name>Thomas Maurel</name>
+            <timezone>+1</timezone>
+        </developer>
+        <developer>
+            <id>rseguy</id>
+            <name>Romain Seguy</name>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+  <scm>
+    <connection>scm:svn:https://svn.jenkins-ci.org/tags/role-strategy-1.1.2</connection>
+    <developerConnection>scm:svn:https://svn.jenkins-ci.org/tags/role-strategy-1.1.2</developerConnection>
+    <url>https://svn.jenkins-ci.org/tags/role-strategy-1.1.2</url>
+  </scm>
+</project>

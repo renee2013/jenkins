@@ -1,0 +1,69 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Users\twer.TW-DLA-120\.jenkins\workspace\UT
+Running Prebuild steps
+[UT] $ cmd /c call D:\servers\tomcat\apache-tomcat-7.0.41\temp\hudson5811570588505741432.bat
+
+C:\Users\twer.TW-DLA-120\.jenkins\workspace\UT>update_version.bat
+Success build forhudson.tasks.BatchFile@a8582b
+Checkout:UT / C:\Users\twer.TW-DLA-120\.jenkins\workspace\UT - hudson.remoting.LocalChannel@349451
+Using strategy: Default
+Last Built Revision: Revision 89872e8ea52b7a27529c02647ea3e66b4cb4f323 (origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision 89872e8ea52b7a27529c02647ea3e66b4cb4f323 (origin/master)
+Checking out Revision 89872e8ea52b7a27529c02647ea3e66b4cb4f323 (origin/master)
+[EnvInject] - Executing scripts and injecting environment variables after the SCM step.
+[EnvInject] - Injecting as environment variables the properties file path 'C:/Users/twer.TW-DLA-120/.jenkins/workspace/UT/version.txt'
+[EnvInject] - Variables injected successfully.
+[UT] $ sh -xe D:\servers\tomcat\apache-tomcat-7.0.41\temp\hudson3898618605475836484.sh
+cygwin warning:
+  MS-DOS style path detected: D:\servers\tomcat\apache-tomcat-7.0.41\temp\hudson3898618605475836484.sh
+  Preferred POSIX equivalent is: /cygdrive/d/servers/tomcat/apache-tomcat-7.0.41/temp/hudson3898618605475836484.sh
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
++ mvn test
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for jfwu:mvndemo:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 62, column 21
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mvndemo 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mvndemo ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mvndemo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mvndemo ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\twer.TW-DLA-120\.jenkins\workspace\UT\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mvndemo ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ mvndemo ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.411s
+[INFO] Finished at: Fri Jun 28 16:17:51 CST 2013
+[INFO] Final Memory: 6M/15M
+[INFO] ------------------------------------------------------------------------
+Archiving workspace
+Triggering a new build of [8mha:AAAAlB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/az8JH23EH0AC3khg70AAAA=[0mFT #1
+Finished: SUCCESS

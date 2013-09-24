@@ -1,0 +1,21 @@
+Started by upstream project "[8mha:AAAAlB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/az8JP3QEH0AImRBnb0AAAA=[0mUT" build number [8mha:AAAAlB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBk79rPwk/dAQfSMAfbkgnb4AAAA=[0m2
+originally caused by:
+ Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Users\twer.TW-DLA-120\.jenkins\workspace\FT
+Restoring workspace from build #2 of project UT
+[EnvInject] - Executing scripts and injecting environment variables after the SCM step.
+[EnvInject] - Injecting as environment variables the properties file path 'C:/Users/twer.TW-DLA-120/.jenkins/workspace/FT/version.txt'
+[EnvInject] - Variables injected successfully.
+[FT] $ sh -xe D:\servers\tomcat\apache-tomcat-7.0.41\temp\hudson35306919993020441.sh
+cygwin warning:
+  MS-DOS style path detected: D:\servers\tomcat\apache-tomcat-7.0.41\temp\hudson35306919993020441.sh
+  Preferred POSIX equivalent is: /cygdrive/d/servers/tomcat/apache-tomcat-7.0.41/temp/hudson35306919993020441.sh
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
++ echo fake ft
+fake ft
+Archiving workspace
+Triggering a new build of [8mha:AAAAoB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2U1IKc/ErdknzdktTiEn0A+QQ0QMkAAAA=[0mdeploy-to-test #1
+Finished: SUCCESS

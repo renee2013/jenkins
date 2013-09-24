@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Role-based Authorization Strategy' groupId='org.jenkins-ci.plugins' artifactId='role-strategy' version='1.1.2' url='http://wiki.jenkins-ci.org/display/JENKINS/Role+Strategy+Plugin'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>
